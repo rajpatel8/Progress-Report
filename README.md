@@ -1,4 +1,4 @@
-# SPLASH - Assignment 2: Mid-term Interim Progress Report
+# SPLASH - 6 - Assignment 2: <br> Mid-term Interim Progress Report
 ## Cheerly - A Mood Uplift App: Learning & Implementation Journey
  
 **Course**: COMP-8117 Applied Software Engineering  
