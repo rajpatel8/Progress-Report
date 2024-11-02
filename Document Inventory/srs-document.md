@@ -312,13 +312,4 @@ data class Video(
 | 1.1 | 2024-10-15 | Updated API requirements | Rajkumar |
 | 1.2 | 2024-11-01 | Added premium features | Rajkumar |
 
-## Appendices
-
-### Appendix A: Use Case Diagrams
-[Include use case diagrams]
-
-### Appendix B: Sequence Diagrams
-[Include sequence diagrams]
-
-### Appendix C: API Documentation
-[Include API documentation links]
+---
