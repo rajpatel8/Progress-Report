@@ -1,13 +1,13 @@
 name: Convert Markdown to PDF
 
 on:
-  workflow_dispatch: # Allows you to manually trigger the workflow from the Actions tab
+  workflow_dispatch:
   push:
     paths:
-      - "*.md" # Runs the workflow if any markdown file is pushed or updated
+      - "*.md"
   pull_request:
     paths:
-      - "*.md" # Runs the workflow on PRs with markdown file changes
+      - "*.md"
 
 jobs:
   convert_to_pdf:
@@ -17,18 +17,18 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install Pandoc
-      run: sudo apt-get install -y pandoc
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc wkhtmltopdf
 
     - name: Convert Markdown to PDF
       run: |
         mkdir -p output
         for file in *.md; do
-          pandoc "$file" -o "output/${file%.md}.pdf"
+          pandoc "$file" --pdf-engine=wkhtmltopdf -o "output/${file%.md}.pdf"
         done
 
     - name: Upload PDF
       uses: actions/upload-artifact@v3
-      with:
-        name: PDF-Files
-        path: output/
+      with
