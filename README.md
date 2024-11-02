@@ -138,7 +138,7 @@ pie title Build Success Rate
    - Target: <2m average
    - Focus: Build time reduction
 
-## 7. Document Inventory
+## 7. [Document Inventory] (https://github.com/rajpatel8/Progress-Report/tree/main/Document%20Inventory)
 | Document Type | Status | Last Updated |
 |--------------|--------|--------------|
 | SRS v-1.2 | ✅ Complete | 2024-11-01|
