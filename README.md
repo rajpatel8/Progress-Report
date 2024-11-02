@@ -160,7 +160,84 @@ pie title Overall Project Completion Status
 | Podcast Integration | Planned | - API selection<br>- Content management<br>- Storage needs | - Feature completeness<br>- User value | - Early research<br>- Clear requirements |
 | Activity Suggestions | Planned | - Location services<br>- Real-time data<br>- API integration | - Feature scope<br>- User engagement | - Phased implementation<br>- Clear architecture |
 
-### D. Deviation Analysis
+### D Sprint-wise Task Distribution
+
+### Base Iteration
+| Task | Assignee(s) | Priority | Size |
+|------|-------------|----------|------|
+| Project Setup | Rajkumar | P0 | M |
+| Create Splash Screen | Rajkumar | P0 | S |
+| Create User Preference Screen | Vansh | P0 | S |
+| Add Next Button Functionality | Vansh | P0 | XS |
+| API Selection | Vansh | P0 | S |
+| Implement CRS Research | Rajkumar | P0 | S |
+| Github Project Setup | Rajkumar | P0 | XS |
+| Add Prompt Activity | Vansh | P0 | S |
+
+### Iteration 2
+| Task | Assignee(s) | Priority | Size |
+|------|-------------|----------|------|
+| Update Logo and App Name | Rajkumar | P0 | XS |
+| Double Tap Deselection | Rajkumar, Vansh | P0 | S |
+| UI Enhancement | Rajkumar, Vansh | P0 | - |
+
+### Iteration 3
+| Task | Assignee(s) | Priority | Size |
+|------|-------------|----------|------|
+| Mood Uplift Feature | Rajkumar, Vansh | P1 | XS |
+| Music Based on Mood | Rajkumar | P0 | S |
+| Results Screen | Rajkumar, Vansh | P0 | S |
+| User Preference Launch | Vansh | P0 | XS |
+| Mood Selection Update | Vansh | P0 | XS |
+| Save User Preferences | Rajkumar | P0 | XS |
+| Video Recommendations | Rajkumar, Vansh | P0 | M |
+
+## Contribution Summary
+
+### By Developer
+```mermaid
+pie title Task Distribution by Developer
+    "Rajkumar Only" : 8
+    "Vansh Only" : 7
+    "Collaborative (Both)" : 5
+```
+
+### By Sprint Size
+```mermaid
+pie title Task Distribution by Size
+    "XS (Extra Small)" : 9
+    "S (Small)" : 8
+    "M (Medium)" : 2
+```
+
+### Key Metrics
+- Total Tasks: 20
+- Completed Tasks: 18
+- Tasks In Progress: 2
+- Average Task Size: Small
+- Most Common Priority: P0
+
+## Individual Highlights
+
+## Rajkumar
+- Led infrastructure setup (Project Setup, Github)
+- Handled core features (Music Integration, CRS)
+- Strong focus on backend functionality
+- Primary contributor to 13 tasks
+
+## Vansh
+- Led UI/UX improvements
+- Managed user preference features
+- Strong focus on frontend development
+- Primary contributor to 12 tasks
+
+## Team Collaboration
+- 5 tasks completed through pair programming
+- Strong synergy in feature development
+- Balanced workload distribution
+- Effective task handoffs
+
+### E. Deviation Analysis
 
 1. **Timeline Deviations**
    - Sprint 2: 3 Days Delay
