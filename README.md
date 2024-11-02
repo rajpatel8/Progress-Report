@@ -31,75 +31,139 @@ Cheerly is an Android application being developed as part of the COMP-8117 Appli
 
 ## 1. Artifacts Produced
 
-### A. Documentation Artifacts
-1. **Software Requirements Specification (SRS v1.2)**
-   - Location: `https://github.com/rajpatel8/Cheerly/docs/SRS_v1.2.pdf`
-   - Last Updated: October 15, 2024
-   - Document Purpose: Comprehensive project requirements blueprint
+## 1. Application Stability Analysis
+```mermaid
+pie title Crash Distribution by Component
+    "MoodRecommendationActivity" : 13
+    "MoodsFragment" : 8
+    "VideoAdapter" : 7
+    "SplashActivity" : 6
+    "Others" : 9
+```
 
-2. **Software Design Specification (SDS v1.1)**
-   - Location: `https://github.com/rajpatel8/Cheerly/docs/SDS_v1.1.pdf`
-   - Last Updated: October 20, 2024
-   - Document Purpose: Technical implementation guide
+### Stability Metrics
+| Metric | Value | Status |
+|--------|--------|--------|
+| Crash-free Users | 65.71% | 🟡 Needs Improvement |
+| Crash-free Sessions | 74.71% | 🟡 Needs Improvement |
+| Total Crashes | 43 | 🔴 High |
+| Affected Users | 12 | 🟡 Moderate |
 
-### B. Design Artifacts
-1. **UML Diagrams**
-   - Location: `/docs/diagrams/uml/`
-   - Components:
-     * System Architecture: High-level system design
-     * Class Relationships: Component interactions
-     * Sequence Diagrams: Key workflow processes
-   - Purpose: Visualize system architecture and interactions
+## 2. CI/CD Performance
+```mermaid
+graph TD
+    A[GitHub Actions] --> B[37 Total Runs]
+    B --> C[Successful: 28]
+    B --> D[Failed: 9]
+    C --> E[Average Time: 2m 22s]
+    D --> F[Failed Time: 16m]
+```
 
-2. **Use Case Diagrams**
-   - Location: `/docs/diagrams/usecase/`
-   - Components:
-     * User Interactions
-     * System Boundaries
-     * Actor Relationships
-   - Purpose: Define system behavior and user interactions
+### Build Performance Analysis
+| Metric | Value | Context |
+|--------|--------|---------|
+| Total Job Runs | 37 | Overall executions |
+| Average Run Time | 2m 22s | Per build |
+| Queue Time | 7s | Average wait |
+| Total Minutes | 103 | Cumulative time |
+| Failed Job Usage | 16m | Time lost to failures |
 
-### C. Code Implementation
-Our codebase demonstrates clean architecture principles and follows industry best practices:
+## 3. Development Timeline
+```mermaid
+gantt
+    title Release Progression
+    dateFormat YYYY-MM-DD
+    section Releases
+    Initial Build    :done, 2024-08-03, 7d
+    Alpha Release    :done, 2024-08-10, 14d
+    Beta Release     :done, 2024-08-24, 21d
+    Version 1.0      :done, 2024-09-14, 7d
+```
 
-1. **Core Components**
-   - Repository: `github.com/rajpatel8/Cheerly`
-   - Implementation Philosophy: SOLID principles
-   ```
-   ├── MainActivity.kt       # Main application entry
-   ├── SplashActivity.kt    # Session management
-   └── UserPreference.kt    # Preference management
-   ```
-   - Quality Metrics:
-     * Code Coverage: 85%
-     * Documentation: KDoc compliant
-     * Review Status: Peer reviewed
+## 4. Documentation Coverage
+```mermaid
+graph LR
+    A[Technical Documentation] --> B[SRS]
+    A --> C[SDS]
+    A --> D[Use Case Diagram]
+    B --> E[Requirements]
+    C --> F[Design Specs]
+    D --> G[Flow Diagrams]
+```
 
-2. **Feature Modules**
-   ```
-   ├── MoodsFragment.kt     # Mood tracking interface
-   ├── PromptFragment.kt    # Custom mood input
-   └── PremiumManager.kt    # Premium features
-   ```
+## 5. Error Analysis
 
-3. **Integration Components**
-   ```
-   ├── SpotifyRepository.kt # Music recommendations
-   ├── SpotifyService.kt    # Spotify API client
-   ├── YouTubeRepository.kt # Video content
-   └── YouTubeService.kt    # YouTube API
-   ```
+### Major Issues Distribution
+| Component | Error Type | Users Affected | Priority |
+|-----------|------------|----------------|----------|
+| MoodRecommendationActivity | Theme.AppCompat error | 13 | 🔴 High |
+| MoodsFragment | ActivityNotFound | 8 | 🟡 Medium |
+| VideoAdapter | IllegalArgument | 7 | 🟡 Medium |
+| SplashActivity | ActivityNotFound | 6 | 🟡 Medium |
 
-### D. Implementation Evidence
-1. **GitHub Repository**
-   - Main Branch: `https://github.com/rajpatel8/Cheerly/main`
-   - Release Tags: v0.1.0 to v0.3.0
-   - Latest Stable: [commit-sha]
+```mermaid
+pie title Error Type Distribution
+    "Theme Issues" : 13
+    "Navigation Errors" : 14
+    "Argument Errors" : 7
+    "Other Issues" : 9
+```
 
-2. **Technical Documentation**
-   - API Documentation: `/docs/api/`
-   - Testing Reports: `/docs/testing/`
-   - Performance Metrics: `/docs/metrics/`
+## 6. Build Process Overview
+```mermaid
+graph LR
+    A[Code Push] --> B[CI Trigger]
+    B --> C[Build Process]
+    C --> D[Tests]
+    D --> E[APK Generation]
+    E --> F[Success/Failure]
+```
+
+### Build Environment
+- **Workflow**: android.yml
+- **OS**: Linux
+- **Runner**: GitHub-hosted
+- **Build Tool**: Gradle
+
+## 7. Success Metrics
+
+### Build Performance
+```mermaid
+pie title Build Success Rate
+    "Successful Builds" : 76
+    "Failed Builds" : 24
+```
+
+### Action Items Based on Metrics
+1. **Crash Rate Improvement**
+   - Current: 34.29% crash rate
+   - Target: <10% crash rate
+   - Focus: Theme compatibility issues
+
+2. **Build Success Rate**
+   - Current: 76% success
+   - Target: >90% success
+   - Focus: Reducing build failures
+
+3. **Performance Optimization**
+   - Current: 2m 22s average
+   - Target: <2m average
+   - Focus: Build time reduction
+
+## 8. Document Inventory
+| Document Type | Status | Last Updated |
+|--------------|--------|--------------|
+| SRS | ✅ Complete | [Date] |
+| SDS | ✅ Complete | [Date] |
+| Use Case Diagram | ✅ Complete | [Date] |
+| Build Reports | 🔄 Ongoing | Auto-generated |
+| Crash Reports | 🔄 Ongoing | Real-time |
+
+This visualization represents the actual confirmed artifacts and metrics from:
+- Firebase Crashlytics data
+- GitHub Actions metrics
+- Documentation inventory
+- APK build history
 
 
 ## 2. Initial Objectives and Schedule
