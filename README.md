@@ -52,11 +52,11 @@ pie title Crash Distribution by Component
 ## 2. CI/CD Performance
 ```mermaid
 graph TD
-    A[GitHub Actions] --> B[37 Total Runs]
-    B --> C[Successful: 28]
-    B --> D[Failed: 9]
-    C --> E[Average Time: 2m 22s]
-    D --> F[Failed Time: 16m]
+    A[GitHub Actions ] --> B[37 Total Runs ]
+    B --> C[Successful: 28 ]
+    B --> D[Failed: 9 ]
+    C --> E[Average Time: 2m 22s ]
+    D --> F[Failed Time: 16m ]
 ```
 
 ### Build Performance Analysis
