@@ -212,7 +212,7 @@ pie title Overall Project Completion Status
 | Podcast Integration | Planned | - API selection<br>- Content management<br>- Storage needs | - Feature completeness<br>- User value | - Early research<br>- Clear requirements |
 | Activity Suggestions | Planned | - Location services<br>- Real-time data<br>- API integration | - Feature scope<br>- User engagement | - Phased implementation<br>- Clear architecture |
 
-### D Sprint-wise Task Distribution
+### D. Sprint-wise Task Distribution
 
 ### Base Iteration
 | Task | Assignee(s) | Priority | Size |
