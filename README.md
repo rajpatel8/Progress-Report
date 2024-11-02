@@ -141,11 +141,11 @@ pie title Build Success Rate
 ## 7. [Document Inventory](https://github.com/rajpatel8/Progress-Report/tree/main/Document%20Inventory)
 | Document Type | Status | Last Updated |
 |--------------|--------|--------------|
-| SRS v-1.2 | ✅ Complete | 2024-11-01|
-| SDS v-1.2| ✅ Complete | 2024-11-01  |
-| Use Case Diagram | ✅ Complete | 2024-10-05 |
-| Build Reports | 🔄 Ongoing | Auto-generated |
-| Crash Reports | 🔄 Ongoing | Real-time |
+| [SRS v-1.2](https://github.com/rajpatel8/Progress-Report/blob/main/Document%20Inventory/sds-document.md) | ✅ Complete | 2024-11-01|
+| [SDS v-1.2](https://github.com/rajpatel8/Progress-Report/blob/main/Document%20Inventory/sds-document.md)| ✅ Complete | 2024-11-01  |
+| [Use Case Diagram](https://github.com/rajpatel8/Progress-Report/tree/main/Document%20Inventory/UML%20%26%20Usercase%20Diagram) | ✅ Complete | 2024-10-05 |
+| [Build Reports](https://github.com/rajpatel8/Progress-Report/tree/main/Document%20Inventory/Github%20CI%3ACD%20Pipleine%20(APK%20job)) | 🔄 Ongoing | Auto-generated |
+| [Crash Reports](https://github.com/rajpatel8/Progress-Report/tree/main/Document%20Inventory/Crash%20Anlytics%20) | 🔄 Ongoing | Real-time |
 
 This visualization represents the actual confirmed artifacts and metrics from:
 - Firebase Crashlytics data
