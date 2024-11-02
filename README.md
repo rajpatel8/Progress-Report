@@ -31,7 +31,7 @@ Cheerly is an Android application being developed as part of the COMP-8117 Appli
 
 ## 1. Artifacts Produced
 
-## 1. Application Stability Analysis
+# 1. Application Stability Analysis
 ```mermaid
 pie title Crash Distribution by Component
     "MoodRecommendationActivity" : 13
