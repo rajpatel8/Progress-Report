@@ -1,6 +1,6 @@
 # SPLASH - Assignment 2: Mid-term Interim Progress Report
 ## Cheerly - A Mood Uplift App: Learning & Implementation Journey
-
+ 
 **Course**: COMP-8117 Applied Software Engineering  
 **Instructor**: Dr. Aznam YACOUB  
 **Date**: November 1, 2024
