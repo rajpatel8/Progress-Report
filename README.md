@@ -31,7 +31,7 @@ Cheerly is an Android application being developed as part of the COMP-8117 Appli
 
 ## 1. Artifacts Produced
 
-## 1. Application Stability Analysis
+### 1. Application Stability Analysis
 ```mermaid
 pie title Crash Distribution by Component
     "MoodRecommendationActivity" : 13
@@ -49,7 +49,7 @@ pie title Crash Distribution by Component
 | Total Crashes | 43 | 🔴 High |
 | Affected Users | 12 | 🟡 Moderate |
 
-## 2. CI/CD Performance
+### 2. CI/CD Performance
 ```mermaid
 graph TD
     A[GitHub Actions ] --> B[37 Total Runs ]
@@ -68,7 +68,7 @@ graph TD
 | Total Minutes | 103 | Cumulative time |
 | Failed Job Usage | 16m | Time lost to failures |
 
-## 3. Documentation Coverage
+### 3. Documentation Coverage
 ```mermaid
 graph LR
     A[Technical Documentation] --> B[SRS]
@@ -79,7 +79,7 @@ graph LR
     D --> G[Flow Diagrams]
 ```
 
-## 4. Error Analysis
+### 4. Error Analysis
 
 ### Major Issues Distribution
 | Component | Error Type | Users Affected | Priority |
@@ -97,7 +97,7 @@ pie title Error Type Distribution
     "Other Issues" : 9
 ```
 
-## 5. Build Process Overview
+### 5. Build Process Overview
 ```mermaid
 graph LR
     A[Code Push] --> B[CI Trigger]
@@ -113,7 +113,7 @@ graph LR
 - **Runner**: GitHub-hosted
 - **Build Tool**: Gradle
 
-## 6. Success Metrics
+### 6. Success Metrics
 
 ### Build Performance
 ```mermaid
@@ -138,7 +138,7 @@ pie title Build Success Rate
    - Target: <2m average
    - Focus: Build time reduction
 
-## 7. [Document Inventory](https://github.com/rajpatel8/Progress-Report/tree/main/Document%20Inventory)
+### 7. [Document Inventory](https://github.com/rajpatel8/Progress-Report/tree/main/Document%20Inventory)
 | Document Type | Status | Last Updated |
 |--------------|--------|--------------|
 | [SRS v-1.2](https://github.com/rajpatel8/Progress-Report/blob/main/Document%20Inventory/sds-document.md) | ✅ Complete | 2024-11-01|
