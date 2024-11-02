@@ -153,9 +153,9 @@ pie title Build Success Rate
 ## 8. Document Inventory
 | Document Type | Status | Last Updated |
 |--------------|--------|--------------|
-| SRS | ✅ Complete | [Date] |
-| SDS | ✅ Complete | [Date] |
-| Use Case Diagram | ✅ Complete | [Date] |
+| SRS v-1.2 | ✅ Complete | 2024-11-01|
+| SDS v-1.2| ✅ Complete | 2024-11-01  |
+| Use Case Diagram | ✅ Complete | 2024-10-05 |
 | Build Reports | 🔄 Ongoing | Auto-generated |
 | Crash Reports | 🔄 Ongoing | Real-time |
 
