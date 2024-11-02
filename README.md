@@ -9,6 +9,7 @@
 - Rajkumar Patel
 - Vansh Patel
 - Ridham Patel
+- Divya Mistry
 
 ---
 ## Table of Contents
