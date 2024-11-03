@@ -452,8 +452,8 @@ graph TD
 ### A. Team Contribution Distribution
 ```mermaid
 pie title Actual Work Distribution (668 Total Hours)
-    "Rajkumar" : 49.5
-    "Vansh" : 49.5
+    "Rajkumar" : 49
+    "Vansh" : 50
     "Ridham" : 1
 ```
 
