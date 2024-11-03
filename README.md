@@ -6,7 +6,7 @@
 **Date**: November 1, 2024
 
 **Team Members**:
-- Rajkumar Patel
+- Rajkumar Patel - Team Lead
 - Vansh Patel
 - Ridham Patel
 - Divya Mistry
