@@ -449,7 +449,7 @@ graph TD
 
 ### A. Current Financial Status
 
-1. **Resource Utilization**
+1. **Human Resource Utilization**
 ```mermaid
 pie title Development Hours Distribution
     "Core Development" : 45
