@@ -445,48 +445,114 @@ graph TD
      * Setup instructions
      * Troubleshooting guides
 
-## 6. Financial Analysis
+## 6. 
 
-### A. Current Financial Status
+## Resource & Financial Analysis
 
-1. **Human Resource Utilization**
+### A. Team Contribution Distribution
 ```mermaid
-pie title Development Hours Distribution
-    "Core Development" : 45
-    "API Integration" : 25
-    "Testing" : 15
-    "Documentation" : 10
-    "Management" : 5
+pie title Actual Work Distribution (668 Total Hours)
+    "Rajkumar" : 49.5
+    "Vansh" : 49.5
+    "Ridham" : 1
 ```
 
-2. **Cost Analysis**
-   - Development Tools:
-     * IDE licenses: Free (Community Edition)
-     * Version control: Free (GitHub)
-     * Testing tools: Free tier
-   - Infrastructure:
-     * API usage: Within free tier
-     * Testing environments: Free tier
-     * Documentation hosting: Free
+### B. Developer Hours & Cost Analysis
 
-### B. Future Cost Projections
+| Developer | Hours | Main Contributions | Cost (CAD) |
+|-----------|-------|-------------------|------------|
+| Rajkumar | 330 | • System Architecture<br>• API Integration | $9,900 |
+| Vansh | 330 | • UI/UX Development<br>• Feature Implementation | $9,900 |
+| Ridham | 8 | • Basic Testing Support | $240 |
+| **Total** | **668** | | **$20,040** |
 
-1. **Anticipated Expenses**
-   - API Costs:
-     * Spotify API: ~$50/month (projected)
-     * YouTube API: ~$50/month (projected)
-     * Payment Gateway: 2.9% + $0.30 per transaction
-   - Development Tools:
-     * Testing tools: ~$50/month
-     * Monitoring tools: ~$30/month
+### C. Budget Summary
+```mermaid
+graph TD
+    A[Total Budget: $72,400] --> B[Actual Spend: $20,440]
+    B --> C[Development: $20,040]
+    B --> D[Infrastructure: $150]
+    B --> E[Operations: $250]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+```
 
-2. **Impact Analysis**
-   - Current Budget Status: Within limits
-   - Projected Overrun: 15% possible
-   - Mitigation Strategies:
-     * Optimize API usage
-     * Utilize caching
-     * Phase premium features
+### D. Key Financial Insights
+- Original Budget: $72,400 CAD
+- Actual Cost: $20,440 CAD
+- Savings: $51,960 CAD
+- Efficient two-developer core team model
+- Maintained quality despite concentrated workforce
+
+### E. Future Cost Projections
+
+1. **Monthly Operational Costs**
+
+| Category | Projected Cost (CAD) | Notes |
+|----------|---------------------|--------|
+| Spotify API | $50/month | Based on user growth |
+| YouTube API | $50/month | Based on usage metrics |
+| Payment Gateway | 2.9% + $0.30/transaction | Variable based on sales |
+| Testing Tools | $50/month | Fixed cost |
+| Monitoring Tools | $30/month | Fixed cost |
+| **Total Fixed Costs** | **$180/month** | Excluding transaction fees |
+
+2. **Risk Management**
+- Current Status: Within budget limits
+- Potential Overrun: 15% possible in scaling phase
+- Mitigation Plan:
+  * Implement API request caching
+  * Optimize resource usage
+  * Phased feature rollout
+  * Monitor usage patterns
+
+### F. Budget Utilization Overview
+```mermaid
+pie title Budget Utilization Status ($72,400 Total)
+    "Spent: $20,440" : 28.2
+    "Remaining: $51,960" : 71.8
+```
+
+### G. Detailed Cost Breakdown
+```mermaid
+graph LR
+    A[Total Budget<br>$72,400] --> B[Spent<br>$20,440]
+    A --> C[Remaining<br>$51,960]
+    
+    B --> D[Development<br>$20,040]
+    B --> E[Infrastructure<br>$150]
+    B --> F[Operations<br>$250]
+    
+    C --> G[Future APIs<br>$100/month]
+    C --> H[Tools<br>$80/month]
+    C --> I[Buffer]
+    
+    style A fill:#34D399,stroke:#059669,color:white
+    style B fill:#FBBF24,stroke:#B45309,color:white
+    style C fill:#60A5FA,stroke:#2563EB,color:white
+```
+
+### H. Financial Summary & Recommendations
+
+1. **Current Position**
+   - Significant budget buffer available
+   - Efficient resource utilization
+   - Cost-effective development model
+
+2. **Future Planning**
+   - Monthly operational costs manageable
+   - Sufficient buffer for scaling
+   - Room for additional tooling
+
+3. **Recommendations**
+   - Continue efficient two-developer model
+   - Implement cost monitoring for APIs
+   - Maintain budget buffer for scaling
+   - Plan for gradual feature rollout
+
+---
+*Note: All projections based on current market rates and usage patterns*
      
 
 ## 7. Success and Challenges
